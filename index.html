@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PromptChanの解約方法｜Cancelボタンが見つからない場合の手順</title>
+  <meta name="description" content="PromptChanの解約方法を実体験ベースで解説。ProfileではなくAccount SettingからCancelを押し、確認画面でContinue to Cancel、Skip and cancel my subscriptionと進み、CentroBillでStop recurring payment、Cancel Membership、Confirmまで進める手順を紹介します。" />
+  <meta name="robots" content="index,follow" />
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #2563eb;
+      --warn-bg: #fff7ed;
+      --warn-border: #fdba74;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 28px 18px 64px;
+    }
+    .hero, .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.05);
+    }
+    .hero { padding: 30px; margin-bottom: 22px; }
+    .card { padding: 26px; margin-top: 18px; }
+    h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.25; margin: 0 0 16px; }
+    h2 { font-size: 24px; line-height: 1.4; margin: 0 0 14px; }
+    p { margin: 10px 0; }
+    .lead { font-size: 18px; }
+    .important {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-left: 5px solid var(--warn-border);
+      background: var(--warn-bg);
+      border-radius: 10px;
+      font-weight: 700;
+    }
+    ol { padding-left: 1.4em; }
+    li { margin: 12px 0; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+    .flow {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .flow div {
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fafafa;
+      text-align: center;
+      font-weight: 700;
+    }
+    .arrow { text-align: center; color: var(--muted); font-size: 20px; }
+    .note { color: var(--muted); font-size: 14px; }
+    .footer { margin-top: 28px; color: var(--muted); font-size: 14px; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>PromptChanの解約方法</h1>
+      <p class="lead">「Cancelボタンが見つからない」「Profileに解約ボタンがない」という人向けに、実際に解約できた手順をまとめます。</p>
+      <div class="important">結論：<strong>Profileではなく「Account Setting」から進みます。</strong></div>
+    </section>
+
+    <section class="card">
+      <h2>解約手順</h2>
+      <ol>
+        <li>PromptChanにログインする。</li>
+        <li>右上の自分のアイコンをクリックする。</li>
+        <li><strong>Account Setting</strong> を開く。</li>
+        <li>現在のプランの横にある <strong>Cancel</strong> を押す。</li>
+        <li>確認ウィンドウが出たら <strong>Continue to Cancel</strong> を押す。</li>
+        <li>次の確認画面で <strong>Skip and cancel my subscription</strong> を押す。</li>
+        <li>契約時にも経由した <strong>CentroBill</strong> のページに移動する。</li>
+        <li><strong>Stop recurring payment</strong> を押す。</li>
+        <li>メールアドレスを入力する。</li>
+        <li>認証方法を選ぶ。メール認証、または契約時に使ったクレジットカード番号の下4桁でCentroBillにログインする。</li>
+        <li>契約中のプランが表示されたら、下にある <strong>Cancel Membership</strong> を押す。</li>
+        <li>解約理由や「どうすれば継続するか」といったアンケートに回答する。</li>
+        <li>最後に <strong>Confirm</strong> を押す。</li>
+      </ol>
+      <div class="important">⚠️ 2つ目の確認画面では、<strong>Never mind, keep my subscription</strong>（解約せず継続する）の方が目立って表示されます。<br>解約したい場合は、<strong>Skip and cancel my subscription</strong> を選んでください。</div>
+      <div class="important">PromptChan側の <strong>Cancel</strong> を押しただけでは完了ではありません。<br><strong>Continue to Cancel → Skip and cancel my subscription</strong> と進み、その後CentroBillで <strong>Stop recurring payment → Cancel Membership → Confirm</strong> まで進めてください。</div>
+    </section>
+
+    <section class="card">
+      <h2>流れだけ見たい人向け</h2>
+      <div class="flow" aria-label="解約フロー">
+        <div>PromptChanにログイン</div><div class="arrow">↓</div>
+        <div>右上アイコン</div><div class="arrow">↓</div>
+        <div>Account Setting</div><div class="arrow">↓</div>
+        <div>現在のプラン横の Cancel</div><div class="arrow">↓</div>
+        <div>Continue to Cancel</div><div class="arrow">↓</div>
+        <div>Skip and cancel my subscription</div><div class="arrow">↓</div>
+        <div>CentroBill</div><div class="arrow">↓</div>
+        <div>Stop recurring payment</div><div class="arrow">↓</div>
+        <div>認証してログイン</div><div class="arrow">↓</div>
+        <div>Cancel Membership</div><div class="arrow">↓</div>
+        <div>アンケート回答</div><div class="arrow">↓</div>
+        <div>Confirm</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>ProfileではなくAccount Setting</h2>
+      <p>PromptChanの解約方法を調べると「Profileからプランをキャンセルする」と説明されている場合がありますが、実際に確認したときはProfileにキャンセルボタンが見当たりませんでした。</p>
+      <p>今回、実際に解約できたのは <strong>Account Setting → 現在のプラン横のCancel</strong> から進む方法でした。</p>
+    </section>
+
+    <section class="card">
+      <h2>注意</h2>
+      <p>このページは実際に解約したときの手順をもとに作成しています。PromptChanやCentroBill側の画面表示・文言・手順は今後変更される可能性があります。</p>
+      <p>特に <code>Stop recurring payment</code> は「定期支払いを停止する」という意味です。最終的な操作として <code>Cancel Membership</code> と <code>Confirm</code> まで進むことをおすすめします。</p>
+      <p class="note">※このページはPromptChanまたはCentroBillの公式サイトではありません。</p>
+    </section>
+
+    <p class="footer">困って検索した人が、少しでも早く解約手順にたどり着けるように作ったページです。</p>
+  
+<section class="notice" style="margin-top: 2rem;">
+  <h2>解約後に「まだプランが表示されている」と焦らないで</h2>
+  <p>
+    解約手続きをした時点では、<strong>解約後も現在のプランは更新日まではそのまま表示されています。</strong>
+    そのため、プラン名が残っているだけで「解約できていない」と焦らなくて大丈夫です。
+  </p>
+  <p>
+    ただし、僕自身もまだ次回更新日を迎えていないため、
+    <strong>更新日を過ぎた後に表示がどう変わるかまでは、現時点では確認できていません。</strong>
+  </p>
+  <p>
+    もし更新日を過ぎても契約状態が変わらない、または請求が続くなどの問題があった場合は、
+    CentroBillへ移動した際に表示される問い合わせ・メール送信の手段から確認するのがよいと思います。
+  </p>
+  <p><small>※実際に確認できた内容と、まだ確認できていない内容を分けて記載しています。</small></p>
+</section>
+
+</main>
+</body>
+</html>
